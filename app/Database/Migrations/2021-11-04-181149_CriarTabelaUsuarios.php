@@ -22,6 +22,10 @@ class CriarTabelaUsuarios extends Migration
                 'type' => 'VARCHAR',
                 'constraint' => 50,
             ],
+            'telefone' => [
+                'type' => 'VARCHAR',
+                'constraint' => 50,
+            ],
         ]);
 
         $this->forge->addPrimaryKey('id', true);
