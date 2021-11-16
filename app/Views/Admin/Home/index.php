@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Majestic Admin</title>
   <!-- plugins:css -->
+<<<<<<< HEAD
   <link rel="stylesheet" href="<?php echo site_url('admin/');?>vendors/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="vendors/base/vendor.bundle.base.css">
   <!-- endinject -->
@@ -17,6 +18,8 @@
   <link rel="stylesheet" href="<?php echo site_url('admin/');?>css/style.css">
   <!-- endinject -->
   <link rel="shortcut icon" href="<?php echo site_url('admin/');?>images/favicon.png" />
+=======
+>>>>>>> fcde01747cbb6ae1b1f2927396a5f0a8b44dc73a
 </head>
 <body>
   <div class="container-scroller">
@@ -576,6 +579,7 @@
   <!-- container-scroller -->
 
   <!-- plugins:js -->
+<<<<<<< HEAD
   <script src="<?php echo site_url('admin/');?>vendors/base/vendor.bundle.base.js"></script>
   <!-- endinject -->
   <!-- Plugin js for this page-->
@@ -595,6 +599,27 @@
   <script src="<?php echo site_url('admin/');?>js/dataTables.bootstrap4.js"></script>
   <!-- End custom js for this page-->
   <script src="<?php echo site_url('admin/');?>js/jquery.cookie.js" type="text/javascript"></script>
+=======
+  <script src="vendors/base/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page-->
+  <script src="vendors/chart.js/Chart.min.js"></script>
+  <script src="vendors/datatables.net/jquery.dataTables.js"></script>
+  <script src="vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+  <!-- End plugin js for this page-->
+  <!-- inject:js -->
+  <script src="js/off-canvas.js"></script>
+  <script src="js/hoverable-collapse.js"></script>
+  <script src="js/template.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="js/dashboard.js"></script>
+  <script src="js/data-table.js"></script>
+  <script src="js/jquery.dataTables.js"></script>
+  <script src="js/dataTables.bootstrap4.js"></script>
+  <!-- End custom js for this page-->
+  <script src="js/jquery.cookie.js" type="text/javascript"></script>
+>>>>>>> fcde01747cbb6ae1b1f2927396a5f0a8b44dc73a
 </body>
 
 </html>
