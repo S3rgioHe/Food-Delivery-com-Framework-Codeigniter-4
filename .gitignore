@@ -89,7 +89,6 @@ phpunit
 vendor/
 /system
 /composer.lock
-/composer.local.*
 /composer.phar
 composer.json
 .DS_Store
