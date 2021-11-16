@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Majestic Admin</title>
   <!-- plugins:css -->
-<<<<<<< HEAD
+
   <link rel="stylesheet" href="<?php echo site_url('admin/');?>vendors/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="vendors/base/vendor.bundle.base.css">
   <!-- endinject -->
@@ -18,8 +18,7 @@
   <link rel="stylesheet" href="<?php echo site_url('admin/');?>css/style.css">
   <!-- endinject -->
   <link rel="shortcut icon" href="<?php echo site_url('admin/');?>images/favicon.png" />
-=======
->>>>>>> fcde01747cbb6ae1b1f2927396a5f0a8b44dc73a
+
 </head>
 <body>
   <div class="container-scroller">
