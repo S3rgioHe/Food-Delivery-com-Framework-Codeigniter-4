@@ -87,7 +87,6 @@ phpunit
 # Composer
 #-------------------------
 vendor/
-/system
 /composer.lock
 /composer.phar
 .DS_Store
