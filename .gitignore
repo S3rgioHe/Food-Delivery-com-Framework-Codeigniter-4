@@ -90,7 +90,6 @@ vendor/
 /system
 /composer.lock
 /composer.phar
-composer.json
 .DS_Store
 
 #-------------------------
