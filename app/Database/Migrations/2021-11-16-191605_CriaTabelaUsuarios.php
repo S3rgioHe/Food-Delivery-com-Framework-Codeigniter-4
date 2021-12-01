@@ -13,12 +13,27 @@ class CriaTabelaUsuarios extends Migration
                 'type' => 'INT',
                 'constraint' => 5,
                 'unsigned' => true,
+                'auto_increment' => true,
             ],
+            'name' => [
+                'type' => 'VARCHAR',
+                'constraint' => '128',
+            ],
+            'email' => [
+                'type' => 'VARCHAR',
+                'constraint' => '128',
+            ],
+            'name' => [
+                'type' => 'VARCHAR',
+                'constraint' => '128',
+            ],            
         ]);
+        $this->forge->addKey('id', true);
+        $this->forge->createTable('users');
     }
 
     public function down()
     {
-        //
+        $this->forge->dropTable('users');
     }
 }
